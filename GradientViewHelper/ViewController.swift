@@ -12,7 +12,12 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        //let newLayer = CAGradientLayer()
+        //newLayer.colors = [UIColor.black.cgColor, UIColor.darkGray.cgColor]
+        //newLayer.frame = view.frame
+        
+        //view.layer.addSublayer(newLayer)
+        //view.layer.insertSublayer(newLayer, at: 0)
     }
 
 

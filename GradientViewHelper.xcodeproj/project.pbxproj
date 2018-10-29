@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E2E52BC42185D87600356C51 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2E52BC32185D87600356C51 /* GradientView.swift */; };
 		E2EF7BBF2185BBC9006A46AD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2EF7BBE2185BBC9006A46AD /* AppDelegate.swift */; };
 		E2EF7BC12185BBC9006A46AD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2EF7BC02185BBC9006A46AD /* ViewController.swift */; };
 		E2EF7BC42185BBC9006A46AD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2EF7BC22185BBC9006A46AD /* Main.storyboard */; };
@@ -15,6 +16,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E2E52BC32185D87600356C51 /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
+		E2E52BC52185DF7600356C51 /* tr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = tr; path = tr.lproj/Main.strings; sourceTree = "<group>"; };
+		E2E52BC62185DF7600356C51 /* tr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = tr; path = tr.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 		E2EF7BBB2185BBC9006A46AD /* GradientViewHelper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GradientViewHelper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2EF7BBE2185BBC9006A46AD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E2EF7BC02185BBC9006A46AD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -60,6 +64,7 @@
 				E2EF7BC52185BBCB006A46AD /* Assets.xcassets */,
 				E2EF7BC72185BBCB006A46AD /* LaunchScreen.storyboard */,
 				E2EF7BCA2185BBCB006A46AD /* Info.plist */,
+				E2E52BC32185D87600356C51 /* GradientView.swift */,
 			);
 			path = GradientViewHelper;
 			sourceTree = "<group>";
@@ -137,6 +142,7 @@
 			files = (
 				E2EF7BC12185BBC9006A46AD /* ViewController.swift in Sources */,
 				E2EF7BBF2185BBC9006A46AD /* AppDelegate.swift in Sources */,
+				E2E52BC42185D87600356C51 /* GradientView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -147,6 +153,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				E2EF7BC32185BBC9006A46AD /* Base */,
+				E2E52BC52185DF7600356C51 /* tr */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -155,6 +162,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				E2EF7BC82185BBCB006A46AD /* Base */,
+				E2E52BC62185DF7600356C51 /* tr */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -166,6 +174,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -227,6 +236,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
